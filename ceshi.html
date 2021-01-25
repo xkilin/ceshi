@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 一个表格 -->
+    <form action="https://www.huya.com/lpl" method="POST">
+        <table border="1" cellspacing="0" cellpadding="10">
+            <tr>
+                <td colspan="3"><strong>1.会员登录名和密码</strong></td>
+            </tr>
+            <tr>
+                <td>用户名：</td>
+                <td><input type="text" name="username">*</td>
+                <td><input type="button" value="检测用户名">5-15位，请使用英文</td>
+            </tr>
+            <tr>
+                <td>密码：</td>
+                <td><input type="password" name="password">*</td>
+                <td>5-15位，请使用英文, <br> 密码不能与登录名相同；</td>
+            </tr>
+            <tr>
+                <td>再次输入密码：</td>
+                <td><input type="password" name="password">*</td>
+                <td>两次输入的密码必须一致</td>
+            </tr>
+            <tr>
+                <td colspan="3"><strong>2.姓名与联系方式</strong></td>
+            </tr>
+            <tr>
+                <td>真实姓名：</td>
+                <td><input type="text" name="name">*</td>
+                <td><label><input type="radio" name="1">先生</label>
+                    <label><input type="radio" name="1">小姐</label>
+                </td>
+            </tr>
+            <tr>
+                <td>电子邮箱：</td>
+                <td><input type="text" name="email">*</td>
+                <td>非常重要 <br>这是客户与你联系的首选方式，请一定认真填写 </td>
+            </tr>
+            <tr>
+                <td>固定电话：</td>
+                <td><input type="text" name="tel">*</td>
+                <td>区号+电话号码</td>
+            </tr>
+            <tr>
+                <td>公司所在地：</td>
+                <td colspan="2"> <select name="city">
+                        <option>北京</option>
+                        <option>上海</option>
+                        <option>广东</option>
+                    </select>
+                    <select name="quyu">
+                        <option>东城</option>
+                        <option>西城</option>
+                        <option>北城</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>街道地址：</td>
+                <td colspan="2"><input type="text" name="dress">*填写县、街道 、门牌号</td>
+            </tr>
+            <tr>
+                <td>传真号码：</td>
+                <td colspan="2"><input type="text" name="cztel"></td>
+            </tr>
+            <tr>
+                <td>手机号码：</td>
+                <td colspan="2"><input type="text" name="sjtel"></td>
+            </tr>
+            <tr>
+                <td>邮政编码：</td>
+                <td colspan="2"><input type="text" name="yzbm"></td>
+            </tr>
+            <tr>
+                <td colspan="3"><strong>3.公司名称和主营业务</strong></td>
+            </tr>
+            <tr>
+                <td>贵公司名称：</td>
+                <td><input type="text" name="name">*</td>
+                <td>请填写在工商局注册的工司 <br>无商号的个体经营者填写执照上的姓名 </td>
+            </tr>
+            <tr>
+                <td>你的职位：</td>
+                <td><input type="text" name="job">*</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>主营行业：</td>
+                <td> <select name="job">
+                        <option>电子电工 </option>
+                        <option>化学工程 </option>
+                        <option>教育</option>
+                        <option>电子商务 </option>
+                    </select></td>
+                <td>请正确选择。您会 收到该行业的供求信息</td>
+            </tr>
+            <tr>
+                <td>主营产品/服务：</td>
+                <td colspan="2"><input type="text" name="2">*3个主要的相关产品/服务名。最少填一个</td>
+            </tr>
+            <tr>
+                <td>公司网址：</td>
+                <td colspan="2"><input type="text" name="int" placeholder="http://"> </td>
+            </tr>
+            <tr>
+                <td colspan="3"><input type="submit" value="确认提交"></td>
+
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
